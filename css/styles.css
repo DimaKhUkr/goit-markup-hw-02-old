@@ -1,0 +1,33 @@
+:root {
+	--prime-text-color: #757575;
+	--title-text-color: #212121;
+	--link-hoover-color: #2196f3;
+	--background-second-color: #f5f4fa;
+}
+body {
+	background-color: #ffffff;
+	color: var(--prime-text-color);
+}
+/* header */
+.logo {
+	position: absolute;
+	width: 145px;
+	height: 31px;
+	left: 215px;
+	top: 24px;
+
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	/* identical to box height */
+
+	letter-spacing: 0.03em;
+
+	color: var(--link-hoover-color);
+	text-decoration: none;
+}
+.logo-end {
+	color: #000000;
+}
