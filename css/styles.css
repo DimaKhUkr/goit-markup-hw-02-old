@@ -91,7 +91,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.advantage-title {
+.advantage-title,
+.portfolio {
   display: none;
 }
 .advantage {
@@ -166,6 +167,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  font-family: inherit;
 }
 .button-selection:hover,
 .button-selection:focus {
@@ -208,4 +210,14 @@ body {
 }
 .logo-end.logo-end-footer {
   color: var(--total-white-color);
+}
+.location,
+.footer-contacts {
+  font-style: normal;
+}
+.location:hover,
+.location:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--link-hoover-color);
 }
